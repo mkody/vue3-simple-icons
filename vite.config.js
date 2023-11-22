@@ -1,24 +1,27 @@
+import { defineConfig } from 'vite'
+import path from 'path'
+import vue from '@vitejs/plugin-vue'
 
-import { defineConfig } from 'vite';
-import path from 'path';
-import vue from '@vitejs/plugin-vue';
-
-
-module.exports = defineConfig({
-  plugins: [vue()],
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [
+    vue()
+  ],
   resolve: {
     alias: {
-      '@/': `${path.resolve(__dirname, "src")}/`,
-    },
+      '@/': `${path.resolve(__dirname, 'src')}/`
+    }
   },
   build: {
     target: 'esnext',
     lib: {
       entry: path.resolve(__dirname, 'src/main.ts'),
-      name: 'Vue3-simple-icons',
+      name: 'Vue3-simple-icons'
     },
     rollupOptions: {
-      external: ['vue'],
+      external: [
+        'vue'
+      ],
       output: {
         globals: {
           vue: 'Vue'

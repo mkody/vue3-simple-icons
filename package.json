@@ -1,12 +1,13 @@
 {
   "name": "vue3-simple-icons",
-  "version": "9.10.0",
-  "homepage": "https://vue3-simple-icons.wyatt-herkamp.dev",
+  "version": "9.21.0",
+  "homepage": "https://mkody.github.io/vue3-simple-icons",
   "description": "Simple Icons as Vue components.",
   "repository": {
-    "url": "wyatt-herkamp/vue3-simple-icons",
+    "url": "git+https://github.com/mkody/vue3-simple-icons.git",
     "type": "git"
   },
+  "type": "module",
   "main": "./dist/vue3-simple-icons.umd.js",
   "module": "./dist/vue3-simple-icons.mjs",
   "exports": {
@@ -20,28 +21,35 @@
     "dist"
   ],
   "scripts": {
-    "build": "npm run build:icons && npm run build:dist && npm run build:type",
+    "build": "pnpm run build:icons && pnpm run build:dist && pnpm run build:type",
     "build:icons": "node build",
     "build:dist": "vite build",
-    "build:type": "vue-tsc --emitDeclarationOnly"
+    "build:type": "vue-tsc --emitDeclarationOnly",
+    "lint": "standard"
   },
   "license": "MIT",
   "dependencies": {
     "vue": "^3"
   },
   "devDependencies": {
-    "typescript": "^5.1.6",
-    "@vitejs/plugin-vue": "^4.2.3",
-    "@vue/compiler-sfc": "^3.3.4",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "@vue/compiler-sfc": "^3.3.8",
     "fs-extra": "^11.1.1",
-    "marked": "^7.0.3",
+    "marked": "^10.0.0",
     "pascal-case": "^3.1.2",
-    "simple-icons": "^9.10.0",
-    "tslib": "^2.6.1",
+    "simple-icons": "^9.21.0",
+    "standard": "^17.1.0",
+    "tslib": "^2.6.2",
     "typeface-nunito": "^1.1.13",
-    "vite": "^4.4.9",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.2",
     "vue": "^3.2.37",
-    "written-number": "^0.11.1",
-    "vue-tsc": "^1.8.8"
-  }
+    "vue-tsc": "^1.8.22",
+    "written-number": "^0.11.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8"
+  },
+  "packageManager": "pnpm@8.10.5"
 }

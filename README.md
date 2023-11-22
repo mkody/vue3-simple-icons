@@ -1,20 +1,21 @@
-# vue3-simple-icons [![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://forthebadge.com) [![npm version](https://badge.fury.io/js/vue3-simple-icons.svg)](https://badge.fury.io/js/vue3-simple-icons)
+# @mkody/vue3-simple-icons
+[![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://forthebadge.com) [![npm version](https://badge.fury.io/js/@mkody%2Fvue3-simple-icons.svg)](https://badge.fury.io/js/@mkody%2Fvue3-simple-icons)
 
 [Simple Icons](https://simpleicons.org/) as Vue components.
 
 ## Install
 
 ```bash
-npm install vue3-simple-icons
+npm install @mkody/vue3-simple-icons
 ```
 
 ## Usage
 
 ```js
-import { ApachemavenIcon, NpmIcon } from 'vue3-simple-icons'
+import { ApachemavenIcon, NpmIcon } from '@mkody/vue3-simple-icons'
 ```
 
-See all icons and usage here: https://vue3-simple-icons.wyatt-herkamp.dev/
+See all icons and usage here: https://mkody.github.io/vue3-simple-icons/
 
 
 ```html
@@ -33,6 +34,7 @@ You can also set a `px` size directly by passing an integer
 * Versioning follows the [Simple Icons](https://github.com/simple-icons/simple-icons) package.
 
 ## Credit
-Forked from [mainvest/vue3-simple-icons](https://github.com/mainvest/vue-simple-icons)
+Forked from [mainvest/vue-simple-icons](https://github.com/mainvest/vue-simple-icons)
+and from [wyatt-herkamp/vue3-simple-icons](https://github.com/wyatt-herkamp/vue3-simple-icons)
 
 Based on [**vue-feather-icons**](https://github.com/egoist/vue-feather-icons) by [egoist](https://github.com/egoist)

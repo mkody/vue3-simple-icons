@@ -2,11 +2,11 @@
   <div id="app">
     <header class="header">
       <div class="container">
-        <h1 class="hero-heading">vue3-simple-icons</h1>
+        <h1 class="hero-heading">@mkody/vue3-simple-icons</h1>
         <h2 class="desc">
           <a href="https://simpleicons.org/" target="_blank">Simple Icons</a> as Vue components.
         </h2>
-        <h3 class="desc">Github <a href="https://github.com/wyatt-herkamp/vue3-simple-icons">vue3-simple-icons</a></h3>
+        <h3 class="desc">Github <a href="https://github.com/mkody/vue3-simple-icons">mkody/vue3-simple-icons</a></h3>
       </div>
     </header>
     <div class="container">
@@ -33,45 +33,39 @@
 </template>
 
 <script>
-
-import * as icons from "vue3-simple-icons";
+import * as icons from '@mkody/vue3-simple-icons'
 
 export default {
-  data() {
+  data () {
     return {
       icons: Object.keys(icons),
-      keyword: "",
-      hoverIcon: "",
-      hoverSize: "",
+      keyword: '',
+      hoverIcon: '',
+      hoverSize: '',
       year: new Date().getFullYear(),
-      exampleSizes: ["24", "1x", "1.5x", "2x", "3x", "4x"],
-    };
+      exampleSizes: [
+        '24', '1x', '1.5x', '2x', '3x', '4x'
+      ]
+    }
   },
   computed: {
     filteredIcons() {
-      const keyword = this.keyword.trim().toLowerCase();
-      if (!keyword) return this.icons;
+      const keyword = this.keyword.trim().toLowerCase()
+      if (!keyword) return this.icons
 
       return this.icons.filter((name) => {
-        return name.toLowerCase().indexOf(keyword) > -1;
-      });
+        return name.toLowerCase().indexOf(keyword) > -1
+      })
     },
-
-  },
-  methods: {
-
   },
   components: {
-    ...icons,
-  },
-};
+    ...icons
+  }
+}
 </script>
-
 
 <style>
 @import url('https://rsms.me/inter/inter.css');
-
-
 
 a.credit {
   padding: 4px 8px;
@@ -122,8 +116,6 @@ a:hover {
   margin: 0 auto;
   padding: 0 10px;
 }
-
-
 </style>
 
 <style scoped>
