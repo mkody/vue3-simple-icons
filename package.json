@@ -8,12 +8,12 @@
     "type": "git"
   },
   "type": "module",
-  "main": "./dist/vue3-simple-icons.umd.js",
-  "module": "./dist/vue3-simple-icons.mjs",
+  "main": "./dist/vue3-simple-icons.umd.cjs",
+  "module": "./dist/vue3-simple-icons.js",
   "exports": {
     ".": {
-      "import": "./dist/vue3-simple-icons.mjs",
-      "require": "./dist/vue3-simple-icons.umd.js"
+      "import": "./dist/vue3-simple-icons.js",
+      "require": "./dist/vue3-simple-icons.umd.cjs"
     }
   },
   "types": "./dist/types/main.d.ts",
