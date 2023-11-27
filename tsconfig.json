@@ -16,7 +16,12 @@
         "src/*"
       ]
     },
-    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
     "skipLibCheck": true,
     "outDir": "dist/types",
     "declaration": true,
