@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.3.8",
+    "vue": "^3.3.9",
     "lodash.kebabcase": "^4.1.1",
     "prismjs": "^1.29.0",
     "vue-tippy": "^6.3.1",

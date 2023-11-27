@@ -1,9 +1,12 @@
 name: Publish to GitHub Pages
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
+  release:
+    types: [ created ]
 
 jobs:
   build:
@@ -46,6 +49,7 @@ jobs:
           path: 'example/dist/'
 
   deploy:
+    if: github.event_name == 'release' || github.event_name == 'workflow_dispatch'
     needs: build
     runs-on: ubuntu-latest
 
