@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^3.1.2
     version: 3.1.2
   simple-icons:
-    specifier: ^10.1.0
-    version: 10.1.0
+    specifier: ^10.2.0
+    version: 10.2.0
   standard:
     specifier: ^17.1.0
     version: 17.1.0
@@ -2212,8 +2212,8 @@ packages:
       object-inspect: 1.13.1
     dev: true
 
-  /simple-icons@10.1.0:
-    resolution: {integrity: sha512-WbWY8Gn0M14EJF0bjH6KTofckesZ6+ZMzA/yM3rbruGFLii/ktYTzTbURCDGzU5ue6XO3pLm9dnzr2YtQegZaA==}
+  /simple-icons@10.2.0:
+    resolution: {integrity: sha512-NBCvnCEoNAFC6ihODFWPq372NRvD84m1iRRxRtw9e30F7TgX/l/I5jBF1XlHehj5pMgQo0S4m/3cOqafAQhq7w==}
     engines: {node: '>=0.12.18'}
     dev: true
 
