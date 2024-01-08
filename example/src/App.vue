@@ -4,7 +4,7 @@
     <div class="container">
       <div class="search-bar">
         <input
-        v-model="keyword"
+          v-model="keyword"
           type="text"
           class="search-input"
           :placeholder="`Search ${numberOfIcons} icons...`"

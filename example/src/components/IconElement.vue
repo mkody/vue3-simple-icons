@@ -27,6 +27,7 @@ const props = defineProps({
     required: true
   }
 })
+// @ts-expect-error - Types don't expect that the import of all icons are an array with a string key
 const iconComponent = computed(() => icons[props.icon.componentName])
 function copyToClipboard () {
   navigator.clipboard.writeText(props.icon.componentName)
