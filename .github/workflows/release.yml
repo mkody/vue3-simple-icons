@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write
+      contents: read
       id-token: write
 
     steps:
@@ -28,11 +28,18 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
           cache: 'pnpm'
 
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
       - name: Update npm
         run: npm install -g npm
 
       - name: Install dependencies
-        run: pnpm install
+        run: |
+          pnpm install
+          pnpm install --prefix buildTools
 
       - name: Build
         run: pnpm build

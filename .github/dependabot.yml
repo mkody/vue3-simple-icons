@@ -11,7 +11,7 @@ updates:
       - mkody
 
   - package-ecosystem: npm
-    directory: "/"
+    directory: "/buildTools"
     versioning-strategy: increase
 
     schedule:

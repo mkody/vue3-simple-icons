@@ -32,9 +32,15 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
           cache: 'pnpm'
 
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
       - name: Build package
         run: |
           pnpm install
+          pnpm install --prefix buildTools
           pnpm build
 
       - name: Build example

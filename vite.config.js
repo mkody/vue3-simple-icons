@@ -15,7 +15,7 @@ export default defineConfig({
   build: {
     target: 'esnext',
     lib: {
-      entry: path.resolve(__dirname, 'src/main.ts'),
+      entry: path.resolve(__dirname, 'src/index.ts'),
       name: 'Vue3-simple-icons'
     },
     rollupOptions: {

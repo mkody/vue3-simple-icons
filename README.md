@@ -12,14 +12,14 @@ npm install @mkody/vue3-simple-icons
 ## Usage
 
 ```js
-import { ApachemavenIcon, NpmIcon } from '@mkody/vue3-simple-icons'
+import { ApacheMavenIcon, NpmIcon } from '@mkody/vue3-simple-icons'
 ```
 
 See all icons and usage here: https://mkody.github.io/vue3-simple-icons/
 
 
 ```html
-<ApachemavenIcon style="fill: white"/>
+<ApacheMavenIcon style="fill: white"/>
 ```
 
 You can also set a `px` size directly by passing an integer
