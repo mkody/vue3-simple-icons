@@ -1,5 +1,4 @@
 # @mkody/vue3-simple-icons
-[![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://forthebadge.com) [![npm version](https://badge.fury.io/js/@mkody%2Fvue3-simple-icons.svg)](https://badge.fury.io/js/@mkody%2Fvue3-simple-icons)
 
 [Simple Icons](https://simpleicons.org/) as Vue components.
 
