@@ -9,8 +9,8 @@ dependencies:
     specifier: ^5.4.2
     version: 5.4.2
   n2words:
-    specifier: ^1.18.0
-    version: 1.18.0
+    specifier: ^1.19.0
+    version: 1.19.0
   simple-icons:
     specifier: 11.4.0
     version: 11.4.0
@@ -114,9 +114,9 @@ packages:
     resolution: {integrity: sha512-WB3UiTDpT+vrTilAWaJS4gaIH/jc1He4H9f6erQvraUYas90uWT0JOYFkG1imdNv710XJ6gJvqynrgOHc4ihDA==}
     dev: false
 
-  /n2words@1.18.0:
-    resolution: {integrity: sha512-FZFNFQhwRDcshGtRrnA4GTabwI9hHow1QndIf10YzFdvKaC3DQsFVN7h2MnjX6hJQLH+vO0ET+K5yN8hBaTW8A==}
-    engines: {node: 16 || 18 || >=20}
+  /n2words@1.19.0:
+    resolution: {integrity: sha512-M7R9wQeFSTmfQE71pSLuiliLBhYheRU1V/MR4UXIDfV9lZ34Y2kgIezJe7TJ4Mo/G4/BX7NnJTeYEdv1cKzs0g==}
+    engines: {node: 18 || >=20}
     dev: false
 
   /simple-icons@11.4.0:
