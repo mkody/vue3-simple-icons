@@ -12,8 +12,8 @@ dependencies:
     specifier: ^1.18.0
     version: 1.18.0
   simple-icons:
-    specifier: 11.3.0
-    version: 11.3.0
+    specifier: 11.4.0
+    version: 11.4.0
 
 devDependencies:
   '@biomejs/biome':
@@ -119,7 +119,7 @@ packages:
     engines: {node: 16 || 18 || >=20}
     dev: false
 
-  /simple-icons@11.3.0:
-    resolution: {integrity: sha512-dr178hpEoy8ZtPKEQvmFcQbbOfqMHGDQ0Mt8BOqZ8lqIvbQ8X7kHdznIIwDVn4yKRPtP8wXGPpMJ/2/1xjjhVA==}
+  /simple-icons@11.4.0:
+    resolution: {integrity: sha512-f6Y/+qZk8/+qn8NMdOV80MIFYoW0ulaTmtUunZZXB6Ix/01NKoB7yopMzxeZUWtygCr+l75KKSRQo24Db2h0Ug==}
     engines: {node: '>=0.12.18'}
     dev: false
