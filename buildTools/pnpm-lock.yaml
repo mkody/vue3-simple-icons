@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   change-case:
-    specifier: ^5.4.2
-    version: 5.4.2
+    specifier: ^5.4.3
+    version: 5.4.3
   n2words:
-    specifier: ^1.19.0
-    version: 1.19.0
+    specifier: ^1.19.1
+    version: 1.19.1
   simple-icons:
     specifier: 11.5.0
     version: 11.5.0
@@ -110,12 +110,12 @@ packages:
     dev: true
     optional: true
 
-  /change-case@5.4.2:
-    resolution: {integrity: sha512-WB3UiTDpT+vrTilAWaJS4gaIH/jc1He4H9f6erQvraUYas90uWT0JOYFkG1imdNv710XJ6gJvqynrgOHc4ihDA==}
+  /change-case@5.4.3:
+    resolution: {integrity: sha512-4cdyvorTy/lViZlVzw2O8/hHCLUuHqp4KpSSP3DlauhFCf3LdnfF+p5s0EAhjKsU7bqrMzu7iQArYfoPiHO2nw==}
     dev: false
 
-  /n2words@1.19.0:
-    resolution: {integrity: sha512-M7R9wQeFSTmfQE71pSLuiliLBhYheRU1V/MR4UXIDfV9lZ34Y2kgIezJe7TJ4Mo/G4/BX7NnJTeYEdv1cKzs0g==}
+  /n2words@1.19.1:
+    resolution: {integrity: sha512-9bsqWvVPoLfaYfXqv5GGjlQQnNihP7YSWltpeMGXj2EOqA1JFeXMh6VjX/fwaE2A+WYL1NVWUDxeigLpZWHa+A==}
     engines: {node: 18 || >=20}
     dev: false
 

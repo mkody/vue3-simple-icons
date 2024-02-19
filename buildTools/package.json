@@ -12,8 +12,8 @@
     "check": "deno run -A npm:@biomejs/biome check --apply src"
   },
   "dependencies": {
-    "change-case": "^5.4.2",
-    "n2words": "^1.19.0",
+    "change-case": "^5.4.3",
+    "n2words": "^1.19.1",
     "simple-icons": "11.5.0"
   },
   "devDependencies": {
