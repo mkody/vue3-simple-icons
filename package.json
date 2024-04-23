@@ -33,14 +33,14 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
-    "@vue/compiler-sfc": "^3.4.21",
-    "typescript": "^5.4.4",
-    "vite": "^5.2.8",
+    "@vue/compiler-sfc": "^3.4.24",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10",
     "vue": "^3.2.37",
-    "vue-tsc": "^2.0.11"
+    "vue-tsc": "^2.0.14"
   },
   "engines": {
     "node": ">=18.0.0",
-    "pnpm": ">=8"
+    "pnpm": ">=9"
   }
 }

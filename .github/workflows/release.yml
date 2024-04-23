@@ -19,7 +19,7 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v3
         with:
-          version: 8
+          version: 9
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -33,9 +33,6 @@ jobs:
         with:
           deno-version: v1.x
 
-      - name: Update npm
-        run: npm install -g npm
-
       - name: Install dependencies
         run: |
           pnpm install
@@ -45,6 +42,6 @@ jobs:
         run: pnpm build
 
       - name: Publish
-        run: npm publish --provenance --access public
+        run: pnpm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
