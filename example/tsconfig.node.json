@@ -1,6 +1,7 @@
 {
   "extends": "@tsconfig/node18/tsconfig.json",
   "include": [
+    "eslint.config.*",
     "vite.config.*"
   ],
   "compilerOptions": {

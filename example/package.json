@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint --ext .js,.ts,.vue ."
+    "lint": "eslint ."
   },
   "dependencies": {
     "@fontsource/inter": "^5.0.18",
@@ -16,23 +16,23 @@
     "normalize.css": "^8.0",
     "prismjs": "^1.29.0",
     "tippy.js": "^6.3.7",
-    "vue": "^3.4.24",
+    "vue": "^3.4.26",
     "vue-tippy": "^6.4.1"
   },
   "devDependencies": {
+    "@eslint/js": "^9.1.1",
     "@tsconfig/node18": "^18.2",
     "@types/node": "^20",
-    "@typescript-eslint/eslint-plugin": "^7.7.1",
-    "@typescript-eslint/parser": "^7.7.1",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vue/tsconfig": "^0.5",
-    "eslint": "8.57.0",
+    "eslint": "9.1.1",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-vue": "^9.25.0",
     "prettier": "^3.2.5",
     "sass": "^1.75",
     "typescript": "^5.4.5",
+    "typescript-eslint": "^7.7.1",
     "vite": "^5.2",
+    "vue-eslint-parser": "^9.4.2",
     "vue-tsc": "^2.0"
   }
 }
