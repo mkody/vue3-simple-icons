@@ -10,7 +10,7 @@
 </template>
 
 <script lang="ts" setup>
-import { computed, defineProps } from 'vue'
+import { computed } from 'vue'
 import * as icons from '@mkody/vue3-simple-icons'
 import { useNotification } from '@kyvg/vue3-notification'
 import type { PropType } from 'vue'
