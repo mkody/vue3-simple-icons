@@ -5,7 +5,7 @@
       "npm:@biomejs/biome@1.8.3": "npm:@biomejs/biome@1.8.3",
       "npm:change-case@^5.4.4": "npm:change-case@5.4.4",
       "npm:n2words@^1.21.0": "npm:n2words@1.21.0",
-      "npm:simple-icons@13.0.0": "npm:simple-icons@13.0.0"
+      "npm:simple-icons@13.1.0": "npm:simple-icons@13.1.0"
     },
     "npm": {
       "@biomejs/biome@1.8.3": {
@@ -61,8 +61,8 @@
         "integrity": "sha512-R+HAae+qVpgDsV2XFnELNmBk8fILv/epGVoCjvnF1+QfOlzX92Pe/zN4B1tOA17uOuR6A8ARSUbUpjUtTyiiNg==",
         "dependencies": {}
       },
-      "simple-icons@13.0.0": {
-        "integrity": "sha512-emybHoFXO9IorOH8Uy8GwavS1oOQk6bVMxrIAXztNn/EcRc17yHmJM6XpUUd1CcDpax0dHAbpqvGp4hqWlQapg==",
+      "simple-icons@13.1.0": {
+        "integrity": "sha512-UUQ5ThpD4J9qkkwnLfloj+mIbJXRHJnMS24lcW+j9ROLpKXysJt2p42iJz/tRi3gEckYaR5+LA5Kb7CZ8Wq8rw==",
         "dependencies": {}
       }
     }
@@ -206,7 +206,7 @@
         "npm:@biomejs/biome@1.8.3",
         "npm:change-case@^5.4.4",
         "npm:n2words@^1.21.0",
-        "npm:simple-icons@13.0.0"
+        "npm:simple-icons@13.1.0"
       ]
     }
   }
