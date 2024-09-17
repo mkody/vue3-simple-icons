@@ -17,6 +17,6 @@
     "simple-icons": "13.10.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.8.3"
+    "@biomejs/biome": "1.9.1"
   }
 }
