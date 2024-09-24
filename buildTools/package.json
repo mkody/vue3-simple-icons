@@ -14,7 +14,7 @@
   "dependencies": {
     "change-case": "^5.4.4",
     "n2words": "^1.21.0",
-    "simple-icons": "13.10.0"
+    "simple-icons": "13.11.0"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.1"
