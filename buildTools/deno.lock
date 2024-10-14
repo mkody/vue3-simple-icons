@@ -9,10 +9,9 @@
     "jsr:@std/fs@1.0.4": "1.0.4",
     "jsr:@std/path@^1.0.6": "1.0.6",
     "jsr:@std/text@~1.0.7": "1.0.7",
-    "npm:@biomejs/biome@1.9.3": "1.9.3",
-    "npm:change-case@^5.4.4": "5.4.4",
-    "npm:n2words@^1.21.0": "1.21.0",
-    "npm:simple-icons@13.14.0": "13.14.0"
+    "npm:change-case@*": "5.4.4",
+    "npm:n2words@*": "1.21.0",
+    "npm:simple-icons@*": "13.14.0"
   },
   "jsr": {
     "@cliffy/command@1.0.0-rc.7": {
@@ -57,43 +56,6 @@
     }
   },
   "npm": {
-    "@biomejs/biome@1.9.3": {
-      "integrity": "sha512-POjAPz0APAmX33WOQFGQrwLvlu7WLV4CFJMlB12b6ZSg+2q6fYu9kZwLCOA+x83zXfcPd1RpuWOKJW0GbBwLIQ==",
-      "dependencies": [
-        "@biomejs/cli-darwin-arm64",
-        "@biomejs/cli-darwin-x64",
-        "@biomejs/cli-linux-arm64",
-        "@biomejs/cli-linux-arm64-musl",
-        "@biomejs/cli-linux-x64",
-        "@biomejs/cli-linux-x64-musl",
-        "@biomejs/cli-win32-arm64",
-        "@biomejs/cli-win32-x64"
-      ]
-    },
-    "@biomejs/cli-darwin-arm64@1.9.3": {
-      "integrity": "sha512-QZzD2XrjJDUyIZK+aR2i5DDxCJfdwiYbUKu9GzkCUJpL78uSelAHAPy7m0GuPMVtF/Uo+OKv97W3P9nuWZangQ=="
-    },
-    "@biomejs/cli-darwin-x64@1.9.3": {
-      "integrity": "sha512-vSCoIBJE0BN3SWDFuAY/tRavpUtNoqiceJ5PrU3xDfsLcm/U6N93JSM0M9OAiC/X7mPPfejtr6Yc9vSgWlEgVw=="
-    },
-    "@biomejs/cli-linux-arm64-musl@1.9.3": {
-      "integrity": "sha512-VBzyhaqqqwP3bAkkBrhVq50i3Uj9+RWuj+pYmXrMDgjS5+SKYGE56BwNw4l8hR3SmYbLSbEo15GcV043CDSk+Q=="
-    },
-    "@biomejs/cli-linux-arm64@1.9.3": {
-      "integrity": "sha512-vJkAimD2+sVviNTbaWOGqEBy31cW0ZB52KtpVIbkuma7PlfII3tsLhFa+cwbRAcRBkobBBhqZ06hXoZAN8NODQ=="
-    },
-    "@biomejs/cli-linux-x64-musl@1.9.3": {
-      "integrity": "sha512-TJmnOG2+NOGM72mlczEsNki9UT+XAsMFAOo8J0me/N47EJ/vkLXxf481evfHLlxMejTY6IN8SdRSiPVLv6AHlA=="
-    },
-    "@biomejs/cli-linux-x64@1.9.3": {
-      "integrity": "sha512-x220V4c+romd26Mu1ptU+EudMXVS4xmzKxPVb9mgnfYlN4Yx9vD5NZraSx/onJnd3Gh/y8iPUdU5CDZJKg9COA=="
-    },
-    "@biomejs/cli-win32-arm64@1.9.3": {
-      "integrity": "sha512-lg/yZis2HdQGsycUvHWSzo9kOvnGgvtrYRgoCEwPBwwAL8/6crOp3+f47tPwI/LI1dZrhSji7PNsGKGHbwyAhw=="
-    },
-    "@biomejs/cli-win32-x64@1.9.3": {
-      "integrity": "sha512-cQMy2zanBkVLpmmxXdK6YePzmZx0s5Z7KEnwmrW54rcXK3myCNbQa09SwGZ8i/8sLw0H9F3X7K4rxVNGU8/D4Q=="
-    },
     "change-case@5.4.4": {
       "integrity": "sha512-HRQyTk2/YPEkt9TnUPbOpr64Uw3KOicFWPVBb+xiHvd6eBx/qPr9xqfBFDT8P2vWsvvz4jbEkfDe71W3VyNu2w=="
     },
@@ -107,7 +69,6 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
-        "npm:@biomejs/biome@1.9.3",
         "npm:change-case@^5.4.4",
         "npm:n2words@^1.21.0",
         "npm:simple-icons@13.14.0"

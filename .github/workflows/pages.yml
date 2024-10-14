@@ -35,6 +35,11 @@ jobs:
         with:
           deno-version: v2.x
 
+      - name: Install buildTools dependencies
+        run: |
+          cd buildTools
+          deno install --allow-scripts --entrypoint ./src/main.ts
+
       - name: Build package
         run: |
           pnpm install
