@@ -25,7 +25,8 @@
     "build": "pnpm run build:icons && pnpm run build:dist && pnpm run build:type",
     "build:icons": "pnpm run --prefix buildTools build",
     "build:dist": "vite build",
-    "build:type": "vue-tsc --emitDeclarationOnly"
+    "build:type": "vue-tsc --emitDeclarationOnly",
+    "postinstall": "cd buildTools && deno install --allow-scripts"
   },
   "license": "MIT",
   "dependencies": {

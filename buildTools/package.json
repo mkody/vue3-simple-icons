@@ -6,10 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "deno run --allow-all src/main.ts --target test --info-json test.simple-icons.json",
-    "build": "deno run --allow-all src/main.ts --target ../src --info-json ../simple-icons.json",
-    "format": "deno run -A npm:@biomejs/biome format src --write",
-    "lint": "deno run -A npm:@biomejs/biome lint src",
-    "check": "deno run -A npm:@biomejs/biome check --apply src"
+    "build": "deno run --allow-all src/main.ts --target ../src --info-json ../simple-icons.json"
   },
   "dependencies": {
     "change-case": "^5.4.4",
