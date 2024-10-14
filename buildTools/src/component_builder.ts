@@ -1,8 +1,8 @@
-import { getIconSlug } from "simple-icons/sdk";
+import { getIconSlug } from "npm:simple-icons/sdk";
 import { Brand } from "./types.ts";
 const componentScript = await Deno.readTextFile("template.vue");
-import * as changeCase from "change-case";
-import n2words from "n2words";
+import * as changeCase from "npm:change-case";
+import n2words from "npm:n2words";
 
 export function buildComponent(iconSVG: string): string {
   const result = `

@@ -1,6 +1,6 @@
-import { existsSync } from "https://deno.land/std@0.211.0/fs/mod.ts";
-import { Command } from "https://deno.land/x/cliffy@v1.0.0-rc.3/command/mod.ts";
-import * as simpleIconsSDK from "simple-icons/sdk";
+import { existsSync } from "jsr:@std/fs@1.0.4";
+import { Command } from "jsr:@cliffy/command@1.0.0-rc.7";
+import * as simpleIconsSDK from "npm:simple-icons/sdk";
 import packageJson from "../package.json" with { type: "json" };
 import { buildComponent, getComponentName } from "./component_builder.ts";
 import { Brand, Icons } from "./types.ts";

@@ -31,14 +31,13 @@ jobs:
           cache: 'pnpm'
 
       - name: Setup Deno
-        uses: denoland/setup-deno@v1
+        uses: denoland/setup-deno@v2
         with:
-          deno-version: v1.x
+          deno-version: v2.x
 
       - name: Build package
         run: |
           pnpm install
-          pnpm install --prefix buildTools
           pnpm build
 
       - name: Build example
