@@ -1,6 +1,6 @@
 {
   "name": "@mkody/vue3-simple-icons",
-  "version": "13.14.0",
+  "version": "13.14.1",
   "homepage": "https://mkody.github.io/vue3-simple-icons",
   "description": "Simple Icons as Vue components.",
   "repository": {
@@ -25,7 +25,8 @@
     "build": "pnpm run build:icons && pnpm run build:dist && pnpm run build:type",
     "build:icons": "pnpm run --prefix buildTools build",
     "build:dist": "vite build",
-    "build:type": "vue-tsc --emitDeclarationOnly"
+    "build:type": "vue-tsc --emitDeclarationOnly",
+    "install:deno": "cd buildTools/ && deno install --allow-scripts --entrypoint ./src/main.ts"
   },
   "license": "MIT",
   "dependencies": {
@@ -43,5 +44,5 @@
     "node": ">=18.0.0",
     "pnpm": ">=9"
   },
-  "packageManager": "pnpm@9.12.1"
+  "packageManager": "pnpm@9.12.2"
 }

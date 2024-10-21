@@ -71,7 +71,7 @@
       "dependencies": [
         "npm:change-case@^5.4.4",
         "npm:n2words@^1.21.0",
-        "npm:simple-icons@13.14.0"
+        "npm:simple-icons@13.14.1"
       ]
     }
   }
