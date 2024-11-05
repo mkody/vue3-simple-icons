@@ -1,6 +1,6 @@
 {
   "name": "@mkody/vue3-simple-icons",
-  "version": "13.15.0",
+  "version": "13.16.0",
   "homepage": "https://mkody.github.io/vue3-simple-icons",
   "description": "Simple Icons as Vue components.",
   "repository": {
@@ -38,7 +38,7 @@
     "typescript": "^5.6.3",
     "vite": "^5.4.10",
     "vue": "^3.2.37",
-    "vue-tsc": "^2.1.8"
+    "vue-tsc": "^2.1.10"
   },
   "engines": {
     "node": ">=18.0.0",
