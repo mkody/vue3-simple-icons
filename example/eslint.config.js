@@ -5,12 +5,13 @@ import vueParser from 'vue-eslint-parser'
 import prettierConfig from 'eslint-config-prettier'
 
 export default tseslint.config(
-  eslint.configs.recommended, // eslint-disable-line @typescript-eslint/no-unsafe-member-access
+  eslint.configs.recommended,
   prettierConfig,
   ...tseslint.configs.recommendedTypeChecked,
   {
     ignores: [
       '**/*.min.js',
+      '**/dist/**',
     ],
     languageOptions: {
       parser: vueParser,
