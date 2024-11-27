@@ -1,6 +1,6 @@
 {
   "name": "@mkody/vue3-simple-icons",
-  "version": "13.17.0",
+  "version": "13.18.0",
   "homepage": "https://mkody.github.io/vue3-simple-icons",
   "description": "Simple Icons as Vue components.",
   "repository": {
@@ -12,9 +12,9 @@
   "module": "./dist/vue3-simple-icons.js",
   "exports": {
     ".": {
+      "types": "./dist/types/index.d.ts",
       "import": "./dist/vue3-simple-icons.js",
-      "require": "./dist/vue3-simple-icons.umd.cjs",
-      "types": "./dist/types/index.d.ts"
+      "require": "./dist/vue3-simple-icons.umd.cjs"
     }
   },
   "types": "./dist/types/index.d.ts",
@@ -41,8 +41,8 @@
     "vue-tsc": "^2.1.10"
   },
   "engines": {
-    "node": ">=18.0.0",
+    "node": ">=20.0.0",
     "pnpm": ">=9"
   },
-  "packageManager": "pnpm@9.13.2"
+  "packageManager": "pnpm@9.14.2"
 }
