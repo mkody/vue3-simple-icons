@@ -1,10 +1,3 @@
-export interface Icons {
-  /**
-   * A list of brands
-   */
-  icons: Brand[];
-}
-
 /**
  * A single brand
  */

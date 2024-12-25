@@ -3,7 +3,7 @@ import { Command } from "jsr:@cliffy/command@1.0.0-rc.7";
 import * as simpleIconsSDK from "npm:simple-icons/sdk";
 import packageJson from "../package.json" with { type: "json" };
 import { buildComponent, getComponentName } from "./component_builder.ts";
-import { Brand, Icons } from "./types.ts";
+import { Brand } from "./types.ts";
 
 const simpleIconsVersion = packageJson.dependencies["simple-icons"];
 await new Command()
@@ -82,11 +82,11 @@ async function buildIcons(
   const simpleIcons = await Deno.readTextFile(
     `${sourceFolder}/_data/simple-icons.json`,
   );
-  const icons: Icons = JSON.parse(simpleIcons);
+  const icons: Brand[] = JSON.parse(simpleIcons);
 
-  console.log(`Found ${icons.icons.length} icons`);
+  console.log(`Found ${icons.length} icons`);
   const components: Array<Component> = [];
-  for (const icon of icons.icons) {
+  for (const icon of icons) {
     const component = await buildIcon(icon, targetFolder, sourceFolder);
     components.push(component);
   }
