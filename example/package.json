@@ -16,8 +16,8 @@
     "normalize.css": "^8.0",
     "prismjs": "^1.30.0",
     "tippy.js": "^6.3.7",
-    "vue": "^3.5.14",
-    "vue-tippy": "^6.7.0"
+    "vue": "^3.5.15",
+    "vue-tippy": "^6.7.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.27.0",
