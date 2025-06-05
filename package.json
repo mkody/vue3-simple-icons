@@ -1,6 +1,6 @@
 {
   "name": "@mkody/vue3-simple-icons",
-  "version": "14.15.0",
+  "version": "15.0.0",
   "homepage": "https://mkody.github.io/vue3-simple-icons",
   "description": "Simple Icons as Vue components.",
   "repository": {
@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.4",
-    "@vue/compiler-sfc": "^3.5.15",
+    "@vue/compiler-sfc": "^3.5.16",
     "typescript": "5.8.3",
     "vite": "^6.3.5",
     "vue": "^3.2.37",
@@ -44,7 +44,7 @@
     "node": ">=20.0.0",
     "pnpm": ">=9"
   },
-  "packageManager": "pnpm@10.11.0",
+  "packageManager": "pnpm@10.11.1",
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild"

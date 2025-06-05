@@ -78,9 +78,9 @@ async function buildIcons(
     await Deno.mkdir(`${targetFolder}/components`);
   }
 
-  /// Read _data/simple-icons.json
+  /// Read data/simple-icons.json
   const simpleIcons = await Deno.readTextFile(
-    `${sourceFolder}/_data/simple-icons.json`,
+    `${sourceFolder}/data/simple-icons.json`,
   );
   const icons: Brand[] = JSON.parse(simpleIcons);
 
