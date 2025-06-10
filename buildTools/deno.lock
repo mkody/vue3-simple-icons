@@ -13,8 +13,8 @@
     "npm:change-case@^5.4.4": "5.4.4",
     "npm:n2words@*": "1.21.0",
     "npm:n2words@^1.21.0": "1.21.0",
-    "npm:simple-icons@*": "15.0.0",
-    "npm:simple-icons@15.0.0": "15.0.0"
+    "npm:simple-icons@*": "15.1.0",
+    "npm:simple-icons@15.1.0": "15.1.0"
   },
   "jsr": {
     "@cliffy/command@1.0.0-rc.7": {
@@ -65,8 +65,8 @@
     "n2words@1.21.0": {
       "integrity": "sha512-R+HAae+qVpgDsV2XFnELNmBk8fILv/epGVoCjvnF1+QfOlzX92Pe/zN4B1tOA17uOuR6A8ARSUbUpjUtTyiiNg=="
     },
-    "simple-icons@15.0.0": {
-      "integrity": "sha512-r6iy7Oqu13XZZ0IFcoqZnNkb8dqJwc+lyZW6KV/C/cbCJVMEMmPKNlntMrOfzVzzx+Uj8p9m13vOHWzU29jCVw=="
+    "simple-icons@15.1.0": {
+      "integrity": "sha512-7wj0OeOJvGSgNEIrMm1MGhoX7CEV5R+T0Q5HmXzfakrue84qCZNV9l9eG092c14BbiuGgljdwFkLy3rQQaDJyg=="
     }
   },
   "workspace": {
@@ -74,7 +74,7 @@
       "dependencies": [
         "npm:change-case@^5.4.4",
         "npm:n2words@^1.21.0",
-        "npm:simple-icons@15.0.0"
+        "npm:simple-icons@15.1.0"
       ]
     }
   }
