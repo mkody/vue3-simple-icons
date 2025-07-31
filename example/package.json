@@ -20,12 +20,12 @@
     "vue-tippy": "^6.7.1"
   },
   "devDependencies": {
-    "@eslint/js": "^9.31.0",
+    "@eslint/js": "^9.32.0",
     "@tsconfig/node18": "^18.2",
     "@types/node": "^24",
-    "@vitejs/plugin-vue": "^6.0.0",
+    "@vitejs/plugin-vue": "^6.0.1",
     "@vue/tsconfig": "^0.7",
-    "eslint": "^9.31.0",
+    "eslint": "^9.32.0",
     "eslint-config-prettier": "^10.1.8",
     "prettier": "^3.6.2",
     "sass-embedded": "^1.89.2",
