@@ -11,10 +11,10 @@
     "jsr:@std/text@~1.0.7": "1.0.8",
     "npm:change-case@*": "5.4.4",
     "npm:change-case@^5.4.4": "5.4.4",
-    "npm:n2words@*": "1.22.0",
-    "npm:n2words@^1.22.0": "1.22.0",
-    "npm:simple-icons@*": "15.12.0",
-    "npm:simple-icons@15.12.0": "15.12.0"
+    "npm:n2words@*": "1.23.0",
+    "npm:n2words@^1.23.0": "1.23.0",
+    "npm:simple-icons@*": "15.13.0",
+    "npm:simple-icons@15.13.0": "15.13.0"
   },
   "jsr": {
     "@cliffy/command@1.0.0-rc.7": {
@@ -62,19 +62,19 @@
     "change-case@5.4.4": {
       "integrity": "sha512-HRQyTk2/YPEkt9TnUPbOpr64Uw3KOicFWPVBb+xiHvd6eBx/qPr9xqfBFDT8P2vWsvvz4jbEkfDe71W3VyNu2w=="
     },
-    "n2words@1.22.0": {
-      "integrity": "sha512-PuDJFno/61QYyCgMSF4E17oD+ofqsmvHFRm/+Bql0UBWcCN6+n1QIoXOzaSv5onyFTdmdAyQEBNNzq8IbItD8A=="
+    "n2words@1.23.0": {
+      "integrity": "sha512-pCSwrwCRBtga4LR/GDKMaREqA6U7Ftx3YcL07HSU+1bi//2I+ByLCAbEkqBi/EkNiG0F/3Z0wsgofwjeLylXcQ=="
     },
-    "simple-icons@15.12.0": {
-      "integrity": "sha512-C5hMZsJ7naKwjbpzodQE9qjuExnZ1z1lb5rV52FKUdBJvCEc082WgyTGNCazmoGDUae2LVckqSv0zC+zcS8jxA=="
+    "simple-icons@15.13.0": {
+      "integrity": "sha512-Tk3p1Lgmji+8kdUOIvvU3f0loYtWVo/bvO1T82Whpb6BhQ+wM2JR8BaVLQT+TiqqF25DVGrVYXeXrsPo6YDOvg=="
     }
   },
   "workspace": {
     "packageJson": {
       "dependencies": [
         "npm:change-case@^5.4.4",
-        "npm:n2words@^1.22.0",
-        "npm:simple-icons@15.12.0"
+        "npm:n2words@^1.23.0",
+        "npm:simple-icons@15.13.0"
       ]
     }
   }
