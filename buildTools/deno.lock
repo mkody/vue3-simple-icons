@@ -5,16 +5,16 @@
     "jsr:@cliffy/flags@1.0.0-rc.7": "1.0.0-rc.7",
     "jsr:@cliffy/internal@1.0.0-rc.7": "1.0.0-rc.7",
     "jsr:@cliffy/table@1.0.0-rc.7": "1.0.0-rc.7",
-    "jsr:@std/fmt@~1.0.2": "1.0.6",
+    "jsr:@std/fmt@~1.0.2": "1.0.3",
     "jsr:@std/fs@1.0.4": "1.0.4",
-    "jsr:@std/path@^1.0.6": "1.0.8",
-    "jsr:@std/text@~1.0.7": "1.0.11",
+    "jsr:@std/path@^1.0.6": "1.0.7",
+    "jsr:@std/text@~1.0.7": "1.0.8",
     "npm:change-case@*": "5.4.4",
     "npm:change-case@^5.4.4": "5.4.4",
     "npm:n2words@*": "1.23.1",
     "npm:n2words@^1.23.1": "1.23.1",
-    "npm:simple-icons@*": "15.21.0",
-    "npm:simple-icons@15.21.0": "15.21.0"
+    "npm:simple-icons@*": "15.22.0",
+    "npm:simple-icons@15.22.0": "15.22.0"
   },
   "jsr": {
     "@cliffy/command@1.0.0-rc.7": {
@@ -42,8 +42,8 @@
         "jsr:@std/fmt"
       ]
     },
-    "@std/fmt@1.0.6": {
-      "integrity": "a2c56a69a2369876ddb3ad6a500bb6501b5bad47bb3ea16bfb0c18974d2661fc"
+    "@std/fmt@1.0.3": {
+      "integrity": "97765c16aa32245ff4e2204ecf7d8562496a3cb8592340a80e7e554e0bb9149f"
     },
     "@std/fs@1.0.4": {
       "integrity": "2907d32d8d1d9e540588fd5fe0ec21ee638134bd51df327ad4e443aaef07123c",
@@ -51,11 +51,11 @@
         "jsr:@std/path"
       ]
     },
-    "@std/path@1.0.8": {
-      "integrity": "548fa456bb6a04d3c1a1e7477986b6cffbce95102d0bb447c67c4ee70e0364be"
+    "@std/path@1.0.7": {
+      "integrity": "76a689e07f0e15dcc6002ec39d0866797e7156629212b28f27179b8a5c3b33a1"
     },
-    "@std/text@1.0.11": {
-      "integrity": "f191fa22590cac8b1cdba6cc4ab97940e720f7cc67b3084e54405b428bf5843d"
+    "@std/text@1.0.8": {
+      "integrity": "40ba34caa095f393e78796e5eda37b8b4e2cc6cfd6f51f34658ad7487b1451e4"
     }
   },
   "npm": {
@@ -65,8 +65,8 @@
     "n2words@1.23.1": {
       "integrity": "sha512-0fs03Gned6fFTd7HcClE6ic0tqF2QoDNUFLJGvPia8ZrVrTkTexh7V3yUHbcNy755g/Bk9HJjjLbBulfT/F87g=="
     },
-    "simple-icons@15.21.0": {
-      "integrity": "sha512-xEKtyjl3bmmnyxZIsxNlN4RnN/BaP2tecQCSxOj1C6llJKt0TG4u+ZNJKSA82yBGrkO0CWW10UBTFMkH6tVKzQ=="
+    "simple-icons@15.22.0": {
+      "integrity": "sha512-i/w5Ie4tENfGYbdCo2iJ+oies0vOFd8QXWHopKOUzudfLCvnmeheF2PpHp89Z2azpc+c2su3lMiWO/SpP+429A=="
     }
   },
   "workspace": {
@@ -74,7 +74,7 @@
       "dependencies": [
         "npm:change-case@^5.4.4",
         "npm:n2words@^1.23.1",
-        "npm:simple-icons@15.21.0"
+        "npm:simple-icons@15.22.0"
       ]
     }
   }
