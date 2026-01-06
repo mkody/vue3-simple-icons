@@ -2,7 +2,7 @@ import { getIconSlug } from "npm:simple-icons/sdk";
 import { Brand } from "./types.ts";
 const componentScript = await Deno.readTextFile("template.vue");
 import * as changeCase from "npm:change-case";
-import n2words from "npm:n2words";
+import { EnglishConverter } from "npm:n2words";
 
 export function buildComponent(iconSVG: string): string {
   const result = `
@@ -51,11 +51,9 @@ export function getComponentName(icon: Brand): string {
   let title = getIconSlug(icon);
   const beginningNumbers = icon.title.replace(/[^\d].*/, "");
   if (beginningNumbers.length) {
-    const numberInEnglish = n2words(beginningNumbers, {
-      lang: "en",
-    })
+    const numberInEnglish = EnglishConverter(beginningNumbers)
       .split(" ")
-      .filter((word) => word !== "and")
+      .filter((word: string) => word !== "and")
       .join("-");
 
     const numberSlug = `${numberInEnglish}-`;
