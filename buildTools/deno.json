@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "@cliffy/command": "jsr:@cliffy/command@^1.0.0-rc.8",
+    "@std/fs": "jsr:@std/fs@1.0.21"
+  }
+}
