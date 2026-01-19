@@ -11,6 +11,6 @@
   "dependencies": {
     "change-case": "^5.4.4",
     "n2words": "^3.1.0",
-    "simple-icons": "16.5.0"
+    "simple-icons": "16.6.0"
   }
 }
