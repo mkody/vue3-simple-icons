@@ -5,14 +5,14 @@
     "jsr:@cliffy/flags@1.0.0-rc.8": "1.0.0-rc.8",
     "jsr:@cliffy/internal@1.0.0-rc.8": "1.0.0-rc.8",
     "jsr:@cliffy/table@1.0.0-rc.8": "1.0.0-rc.8",
-    "jsr:@std/fmt@~1.0.2": "1.0.9",
+    "jsr:@std/fmt@~1.0.2": "1.0.8",
     "jsr:@std/fs@1.0.21": "1.0.21",
     "jsr:@std/internal@^1.0.12": "1.0.12",
     "jsr:@std/path@^1.1.4": "1.1.4",
-    "jsr:@std/text@~1.0.7": "1.0.17",
+    "jsr:@std/text@~1.0.7": "1.0.16",
     "npm:change-case@^5.4.4": "5.4.4",
     "npm:n2words@^3.1.0": "3.1.0",
-    "npm:simple-icons@16.7.0": "16.7.0"
+    "npm:simple-icons@16.8.0": "16.8.0"
   },
   "jsr": {
     "@cliffy/command@1.0.0-rc.8": {
@@ -40,8 +40,8 @@
         "jsr:@std/fmt"
       ]
     },
-    "@std/fmt@1.0.9": {
-      "integrity": "2487343e8899fb2be5d0e3d35013e54477ada198854e52dd05ed0422eddcabe0"
+    "@std/fmt@1.0.8": {
+      "integrity": "71e1fc498787e4434d213647a6e43e794af4fd393ef8f52062246e06f7e372b7"
     },
     "@std/fs@1.0.21": {
       "integrity": "d720fe1056d78d43065a4d6e0eeb2b19f34adb8a0bc7caf3a4dbf1d4178252cd",
@@ -59,8 +59,8 @@
         "jsr:@std/internal"
       ]
     },
-    "@std/text@1.0.17": {
-      "integrity": "4b2c4ef67ae5b6c1dfd447c81c83a43718f52e3c7e748d8b33f694aba9895f95"
+    "@std/text@1.0.16": {
+      "integrity": "ddb9853b75119a2473857d691cf1ec02ad90793a2e8b4a4ac49d7354281a0cf8"
     }
   },
   "npm": {
@@ -70,8 +70,8 @@
     "n2words@3.1.0": {
       "integrity": "sha512-wU0Zljvr65R0lNJgPqfBPEcLsvo0bAcrw6Tm1wyZMYF5xfrKatc0k+DYVoP1oXKOFfspAJlxXp3wbIB0VtIG6g=="
     },
-    "simple-icons@16.7.0": {
-      "integrity": "sha512-2BteuQXu1+/jK5dF8YXe8nwoRG3afwl03bCmgPJLiotllUBU46B+WntXT731Z17oOntfV5eeTI7Q1k7MeOA6eg=="
+    "simple-icons@16.8.0": {
+      "integrity": "sha512-JOqFl9rXrUkEVwYryZVvfySG6znMg+79KpDIDtAd9mXZAPfLyhVdhhGKg7EYioYzozxXd+5KvURTMguTl0QfbA=="
     }
   },
   "workspace": {
@@ -83,7 +83,7 @@
       "dependencies": [
         "npm:change-case@^5.4.4",
         "npm:n2words@^3.1.0",
-        "npm:simple-icons@16.7.0"
+        "npm:simple-icons@16.8.0"
       ]
     }
   }
