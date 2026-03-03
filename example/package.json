@@ -16,7 +16,7 @@
     "normalize.css": "^8.0",
     "prismjs": "^1.30.0",
     "tippy.js": "^6.3.7",
-    "vue": "^3.5.28",
+    "vue": "^3.5.29",
     "vue-tippy": "^6.7.1"
   },
   "devDependencies": {
@@ -24,13 +24,13 @@
     "@tsconfig/node18": "^18.2",
     "@types/node": "^25",
     "@vitejs/plugin-vue": "^6.0.4",
-    "@vue/tsconfig": "^0.8",
-    "eslint": "^10.0.0",
+    "@vue/tsconfig": "^0.9",
+    "eslint": "^10.0.2",
     "eslint-config-prettier": "^10.1.8",
     "prettier": "^3.8.1",
     "sass-embedded": "^1.97.3",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.56.0",
+    "typescript-eslint": "^8.56.1",
     "vite": "^7.3",
     "vue-eslint-parser": "^10.4.0",
     "vue-tsc": "^3.2"
