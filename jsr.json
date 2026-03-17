@@ -1,0 +1,13 @@
+{
+  "name": "@mkody/vue3-simple-icons",
+  "version": "16.12.0",
+  "license": "MIT",
+  "exports": "./dist/vue3-simple-icons.js",
+  "publish": {
+    "include": [
+      "dist/",
+      "LICENSE",
+      "README.md"
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-name: Publish Package to npmjs
+name: Publish Package
 
 on:
   release:
@@ -45,7 +45,8 @@ jobs:
       - name: Build
         run: pnpm build
 
-      - name: Publish
+      - name: Publish to npmjs
         run: npm publish
-        # env:
-        #   NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish to jsr
+        run: npx jsr publish
