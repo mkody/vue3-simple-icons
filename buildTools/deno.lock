@@ -12,7 +12,7 @@
     "jsr:@std/text@~1.0.7": "1.0.16",
     "npm:change-case@^5.4.4": "5.4.4",
     "npm:n2words@4": "4.0.0",
-    "npm:simple-icons@16.16.0": "16.16.0"
+    "npm:simple-icons@16.17.0": "16.17.0"
   },
   "jsr": {
     "@cliffy/command@1.0.0-rc.8": {
@@ -70,8 +70,8 @@
     "n2words@4.0.0": {
       "integrity": "sha512-y0TJuqz5IaDYAjhmiqKGM4C20/fNeOuPGIE+AM5v5mMO9G/lYJ9tee45NYR7lwF9bquwP6WW6YVxh3XTwq4xPg=="
     },
-    "simple-icons@16.16.0": {
-      "integrity": "sha512-H+Z29a0TrCw6mrG42V2aqHQaKdJCT87x5aojLlPiIXOf1lpMqnKFAR/jP5xkI5hLrVTCBWs33e9sOtyNWqCx1A=="
+    "simple-icons@16.17.0": {
+      "integrity": "sha512-bRrGtzM6NLgxeMWmRcfDdrRksECk101lRrCn6jjj6qzUB6lQ+E5smnr52rqS1kLPmbLpS/g6iF463j50M4BT7A=="
     }
   },
   "workspace": {
@@ -83,7 +83,7 @@
       "dependencies": [
         "npm:change-case@^5.4.4",
         "npm:n2words@4",
-        "npm:simple-icons@16.16.0"
+        "npm:simple-icons@16.17.0"
       ]
     }
   }
