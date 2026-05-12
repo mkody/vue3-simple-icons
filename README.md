@@ -4,8 +4,21 @@
 
 ## Install
 
+This package is available on [npm] ([see on npmx]) and [jsr].
+
+[npm]: https://www.npmjs.com/package/@mkody/vue3-simple-icons
+[npmx]: https://npmx.dev/package/@mkody/vue3-simple-icons
+[jsr]: https://jsr.io/@mkody/vue3-simple-icons
+
 ```bash
+# install from npm
 npm install @mkody/vue3-simple-icons
+
+# or from jsr
+npx jsr add @mkody/vue3-simple-icons
+
+# if using deno
+deno add jsr:@mkody/vue3-simple-icons
 ```
 
 ## Usage
