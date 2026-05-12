@@ -4,7 +4,7 @@
 
 ## Install
 
-This package is available on [npm] ([see on npmx]) and [jsr].
+This package is available on [npm] (see on [npmx]) and [jsr].
 
 [npm]: https://www.npmjs.com/package/@mkody/vue3-simple-icons
 [npmx]: https://npmx.dev/package/@mkody/vue3-simple-icons
