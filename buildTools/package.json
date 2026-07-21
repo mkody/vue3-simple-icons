@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "change-case": "^5.4.4",
-    "n2words": "^5.1.1",
+    "n2words": "^5.1.2",
     "simple-icons": "16.27.0"
   }
 }
