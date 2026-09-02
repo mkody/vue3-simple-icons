@@ -9,16 +9,19 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@/': `${path.resolve(__dirname, 'src')}/`
+      '@/': `${path.resolve(import.meta.dirname, 'src')}/`
     }
   },
   build: {
     target: 'esnext',
     lib: {
-      entry: path.resolve(__dirname, 'src/index.ts'),
+      entry: path.resolve(import.meta.dirname, 'src/index.ts'),
       name: 'Vue3-simple-icons'
     },
     rollupOptions: {
+      checks: {
+        pluginTimings: false
+      },
       external: [
         'vue'
       ],
