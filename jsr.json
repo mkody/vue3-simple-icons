@@ -1,6 +1,6 @@
 {
   "name": "@mkody/vue3-simple-icons",
-  "version": "16.28.0",
+  "version": "16.29.0",
   "license": "MIT",
   "exports": "./dist/vue3-simple-icons.js",
   "publish": {
