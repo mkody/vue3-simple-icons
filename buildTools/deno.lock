@@ -12,8 +12,8 @@
     "jsr:@std/semver@^1.0.8": "1.0.8",
     "jsr:@std/text@^1.0.17": "1.0.17",
     "npm:change-case@^5.4.4": "5.4.4",
-    "npm:n2words@^5.1.2": "5.1.2",
-    "npm:simple-icons@16.29.0": "16.29.0"
+    "npm:n2words@^6.1.2": "6.1.2",
+    "npm:simple-icons@16.30.0": "16.30.0"
   },
   "jsr": {
     "@cliffy/command@1.0.0": {
@@ -73,11 +73,12 @@
     "change-case@5.4.4": {
       "integrity": "sha512-HRQyTk2/YPEkt9TnUPbOpr64Uw3KOicFWPVBb+xiHvd6eBx/qPr9xqfBFDT8P2vWsvvz4jbEkfDe71W3VyNu2w=="
     },
-    "n2words@5.1.2": {
-      "integrity": "sha512-tU8LNPzxnoXZxijegTMMM9Wf3VZE/Us3Tcux/wWmfc74xiWL6UwPyd0de0Hl+H/5xfkuisCcyi9KtARcMTDpFg=="
+    "n2words@6.1.2": {
+      "integrity": "sha512-6Shff2iO5vQa/jptjzHXrdi6s6w+X75MbhcnsAKmzXOUCJw5z7AEeVZNZbc+DBE6Tczti6fcssCrScDNmod1bw==",
+      "bin": true
     },
-    "simple-icons@16.29.0": {
-      "integrity": "sha512-4H94f5ZgcCcgJroc902TFlFdgPu2IU2eD7+WebN2Z14xKYrKHeJ4UQcZwzgSuH4Rgzw+jp7sbHl40NefuIEYsg=="
+    "simple-icons@16.30.0": {
+      "integrity": "sha512-YX/HmgEqjpn5Zs3myzKp8ek5Ti+TdrkvNWn9skGLetg9tOg0cTjYizj9ESAYJn4xwc0GQYVGzQxBELDfbxq7WQ=="
     }
   },
   "workspace": {
@@ -88,8 +89,8 @@
     "packageJson": {
       "dependencies": [
         "npm:change-case@^5.4.4",
-        "npm:n2words@^5.1.2",
-        "npm:simple-icons@16.29.0"
+        "npm:n2words@^6.1.2",
+        "npm:simple-icons@16.30.0"
       ]
     }
   }
